@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+
+.heading {
+    font-size: 45px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color: #121212;
+}
+
+.para {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #707070;
+}
+
+.first-section {
+    background-image: url(images/donation3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 180px 300px;
+}
+
+.first-section h1 {
+    font-size: 65px;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.first-section p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+    padding: 0 200px;
+}
+
+.btn {
+    padding: 16px 12px;
+    background-color: #FF5959;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* second section */
+.second-section {
+    margin: 130px 560px;
+    text-align: center;
+}
+
+.first-cards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 45px 25px;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.card h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.card-2 {
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+}
+
+.card-2 h1 {
+    color: #FF5959;
+}
+
+input[type=number] {
+    width: 100%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    border: none;
+    border-bottom: 2px solid #707070;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* third section */
+.third-section {
+    text-align: center;
+    margin: 0px 160px;
+}
+
+.second-cards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+.second-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 55px 25px;
+    border-radius: 5px;
+}
+.second-card img, h1{
+    margin-bottom: 20px;
+}
+.second-card h1{
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+}
+.second-card p{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    text-align: start;
+}
+.card-one{
+    background-color: #4f9da67d;
+}
+.card-two{
+    background-color: #ff595980;
+}
+.card-three{
+    background-color: #fff4d6;
+}
